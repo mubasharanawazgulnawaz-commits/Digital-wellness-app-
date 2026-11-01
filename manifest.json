@@ -1,0 +1,11 @@
+{
+  "name": "Digital Wellness",
+  "short_name": "Wellness",
+  "description": "Build healthy and sustainable digital habits.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F7F5",
+  "theme_color": "#2E7D6B"
+}

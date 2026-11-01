@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color"
+        content="#2E7D6B">
+
+  <title>Digital Wellness</title>
+
+  <link rel="manifest" href="./manifest.json">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <main class="app">
+
+    <h1>Digital Wellness</h1>
+
+    <p>
+      Build healthy and sustainable digital habits.
+    </p>
+
+    <section class="timer-section">
+
+      <h2>Screen-Time Timer</h2>
+
+      <label for="minutes">
+        Choose your time limit
+      </label>
+
+      <select id="minutes">
+        <option value="5">5 minutes</option>
+        <option value="10">10 minutes</option>
+        <option value="20" selected>20 minutes</option>
+        <option value="30">30 minutes</option>
+        <option value="45">45 minutes</option>
+        <option value="60">60 minutes</option>
+      </select>
+
+      <div id="timer">20:00</div>
+
+      <p id="status">
+        Ready to begin?
+      </p>
+
+      <div class="buttons">
+
+        <button id="start">Start</button>
+
+        <button id="pause">Pause</button>
+
+        <button id="resume">Resume</button>
+
+        <button id="reset">Reset</button>
+
+      </div>
+
+    </section>
+
+    <section class="break-section">
+
+      <h2>Choose an Offline Activity</h2>
+
+      <ul>
+        <li>Read a book</li>
+        <li>Play a sport</li>
+        <li>Draw or paint</li>
+        <li>Go for a walk</li>
+        <li>Spend time with family</li>
+      </ul>
+
+    </section>
+
+  </main>
+
+  <script src="./app.js"></script>
+
+</body>
+
+</html>

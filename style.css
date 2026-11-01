@@ -1,0 +1,109 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #F4F7F5;
+  color: #24332F;
+}
+
+.app {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 24px;
+}
+
+h1 {
+  color: #2E7D6B;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.timer-section,
+.break-section {
+  background: white;
+  padding: 22px;
+  margin-top: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px #00000010;
+}
+
+h2 {
+  color: #2E7D6B;
+  font-size: 21px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: white;
+  font-size: 16px;
+}
+
+#timer {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 25px 0;
+  color: #2E7D6B;
+}
+
+#status {
+  font-size: 15px;
+  color: #52635D;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+button {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #2E7D6B;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+.break-section ul {
+  padding-left: 22px;
+}
+
+.break-section li {
+  margin: 12px 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 400px) {
+  .app {
+    padding: 16px;
+  }
+
+  #timer {
+    font-size: 42px;
+  }
+}
